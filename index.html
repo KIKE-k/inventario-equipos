@@ -271,7 +271,7 @@ function getAlertas(e) {
 
 // ── QR Generator ─────────────────────────────────────────
 // Reemplazá TU_URL_VERCEL con tu URL real cuando subas a Vercel
-const APP_URL = "TU_URL_VERCEL";
+const APP_URL = "https://inventario-equipos-ox4e.vercel.app";
 
 function generateQR(text, size=200) {
   return `https://api.qrserver.com/v1/create-qr-code/?size=${size}x${size}&data=${encodeURIComponent(text)}`;
